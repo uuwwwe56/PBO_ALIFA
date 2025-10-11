@@ -1,7 +1,7 @@
-package pbo1_alifa;
+package tugas2;
 
 public class konversiSuhu {
-     double C; // Celcius
+    double C; // Celcius
     double F; // Fahrenheit
     double R; // Reamur
 

@@ -1,10 +1,8 @@
-package pbo1_alifa;
+package tugas2;
 
-public class PBO1_ALIFA {
+public class main {
     public static void main(String[] args) {
-        
-
-          segitiga s1=new segitiga();
+        segitiga s1=new segitiga();
           s1.a=6;
           s1.b=8;
          
@@ -44,5 +42,4 @@ public class PBO1_ALIFA {
         KS1.celciusReamur();
         KS1.fahrenheitReamur();
     }
-    
 }

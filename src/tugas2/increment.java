@@ -1,7 +1,7 @@
-package pbo1_alifa;
+package tugas2;
 
 public class increment {
-    public static void main(String[] args) {
+  public static void main(String[] args) {
         int angka = 5;
         
         System.out.println("Operator Increment");
@@ -22,5 +22,5 @@ public class increment {
         System.out.println("Nilai angka : "+angka2);
         System.out.println("Increment ++angka : "+increment2);
     }
-   
+     
 }

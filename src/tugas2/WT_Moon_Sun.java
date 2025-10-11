@@ -1,4 +1,4 @@
-package pbo1_alifa;
+package tugas2;
 
 public class WT_Moon_Sun {
     double bulan;

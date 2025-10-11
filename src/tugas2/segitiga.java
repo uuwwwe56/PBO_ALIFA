@@ -1,7 +1,7 @@
-package pbo1_alifa;
+package tugas2;
 
 public class segitiga {
-   double a,b;
+     double a,b;
    
    
    //hitung LUAS NO 5
