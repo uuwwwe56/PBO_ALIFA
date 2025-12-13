@@ -1,6 +1,8 @@
 package tugas9;
 
-// Superclass
+// ==============================
+// SUPERCLASS
+// ==============================
 class Hewan {
     String jenisKaki;
 
@@ -13,11 +15,14 @@ class Hewan {
     }
 }
 
-// Subclass
+// ==============================
+// SUBCLASS
+// ==============================
 class HewanDuaKaki extends Hewan {
     HewanDuaKaki() {
         super("dua");
     }
+
     void contoh() {
         System.out.println("- hewan berkaki dua: kangguru, ayam, bebek, dll");
     }
@@ -27,6 +32,7 @@ class HewanEnamKaki extends Hewan {
     HewanEnamKaki() {
         super("enam");
     }
+
     void contoh() {
         System.out.println("- hewan berkaki enam: capung, nyamuk, kupu-kupu, dll");
     }
@@ -36,6 +42,7 @@ class HewanEmpatKaki extends Hewan {
     HewanEmpatKaki() {
         super("empat");
     }
+
     void contoh() {
         System.out.println("- hewan berkaki empat: kucing, anjing, kuda, dll");
     }
@@ -45,15 +52,19 @@ class HewanDelapanKaki extends Hewan {
     HewanDelapanKaki() {
         super("delapan");
     }
+
     void contoh() {
         System.out.println("- hewan berkaki delapan: kepiting, belalang, laba-laba, dll");
     }
 }
 
-
+// ==============================
+// MAIN CLASS
+// ==============================
 public class Sub_SuperClass {
     public static void main(String[] args) {
         System.out.println("Macam-macam hewan:");
+
         HewanDuaKaki h2 = new HewanDuaKaki();
         HewanEnamKaki h6 = new HewanEnamKaki();
         HewanEmpatKaki h4 = new HewanEmpatKaki();
@@ -70,5 +81,4 @@ public class Sub_SuperClass {
         h4.contoh();
         h8.contoh();
     }
-    
 }
